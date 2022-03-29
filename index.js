@@ -26,7 +26,7 @@ mongoose
 
   app.use("/api/users", userRoute)
   app.use("/api/pins", pinRoute);
-const PORT = process.env.PORT || 9000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log("Backend server connected to port " + PORT);
 });
